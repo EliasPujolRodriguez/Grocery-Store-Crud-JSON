@@ -1,0 +1,60 @@
+{
+  "productos": [
+    {
+      "nombre": "Jugo del valle",
+      "descripcion": "Jugo de botella del valles",
+      "precio": "25",
+      "marca": "Del valle",
+      "id": 1
+    },
+    {
+      "nombre": "Chetos Flamin' g Hot",
+      "descripcion": "Bolsa de frituras",
+      "precio": "12",
+      "marca": "Sabritas",
+      "id": 2
+    },
+    {
+      "nombre": "Jugo jumex",
+      "descripcion": "Jugo de naranja Jumex",
+      "precio": "24.5",
+      "marca": "Del valle",
+      "id": 3
+    },
+    {
+      "nombre": "Doritos",
+      "descripcion": "Doritos nacho",
+      "precio": "45.60",
+      "marca": "Sabritas",
+      "id": 4
+    },
+    {
+      "nombre": "Gansito",
+      "descripcion": "Pastelito de chocolate con relleno de crema",
+      "precio": "10.50",
+      "marca": "Marinela",
+      "id": 5
+    },
+    {
+      "nombre": "Chocolate Abuelita",
+      "descripcion": "Bolsa de chocolate en sobre",
+      "precio": "34.70",
+      "marca": "kk",
+      "id": 6
+    },
+    {
+      "nombre": "Chicles",
+      "descripcion": "ads",
+      "precio": "30.90",
+      "marca": "Trident",
+      "id": 7
+    },
+    {
+      "nombre": "chiles",
+      "descripcion": "Chiles la costeña",
+      "precio": "60",
+      "marca": "la coteña",
+      "id": 8
+    }
+  ]
+}

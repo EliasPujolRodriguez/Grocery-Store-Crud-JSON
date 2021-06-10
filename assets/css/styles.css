@@ -1,0 +1,170 @@
+/*general css */
+* {
+  font-family: "Oswald", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* header css */
+header {
+  padding: 20px;
+  text-align: center;
+  background: #58abb7;
+  font-size: 30px;
+  display: flex;
+}
+
+header #header-title {
+  float: left;
+  font-size: 20px;
+  color: white;
+  flex-direction: initial;
+}
+
+header #buttons {
+  width: 50%;
+  height: 50px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 2;
+  cursor: pointer;
+  flex-direction: column-reverse;
+}
+/* header modal */
+header #btnModal,
+#btnShoppingCart {
+  width: 20%;
+  height: 25px;
+  top: 15px;
+  right: 15px;
+  background: #f8f5f1;
+  border: 0px;
+  box-shadow: none;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid rgba(9, 113, 163, 1);
+}
+
+header #btnShoppingCart {
+  width: 20%;
+  height: 25px;
+  top: 15px;
+  right: 15px;
+  background: #f8f5f1;
+  border: 0px;
+  box-shadow: none;
+  outline: none;
+  cursor: pointer;
+  border: 2px solid rgba(9, 113, 163, 1);
+}
+
+/* modal css */
+header #btnModal:hover,
+#btnShoppingCart:hover {
+  background-color: #29bb89;
+  color: white;
+}
+
+header #btnModal {
+  background-image: url("/assets/img/add.png");
+  background-repeat: no-repeat;
+  background-position: 4px center;
+  background-size: 20px;
+}
+
+/* modal css */
+.modalContainer {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modalContainer .modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid lightgray;
+  border-top: 10px solid #58abb7;
+  width: 60%;
+}
+
+.modalContainer .modal-content form h2 {
+  color: #58abb7;
+  margin: 10px;
+}
+
+.modalContainer .modal-content form input {
+  width: 50%;
+  padding: 8px;
+  margin: 10px;
+  border: 1px solid rgba(9, 113, 163, 1);
+}
+
+.modalContainer .modal-content form input[type="submit"]:hover {
+  background-color: #29bb89;
+  color: white;
+}
+
+.spanClose,
+.spanCloseCart {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.spanClose:hover,
+.spanClose:focus,
+.spanCloseCart:hover,
+.spanCloseCart:focus {
+  color: #cf0000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*crud table styles */
+.crud-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.crud-table td{
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  background-color: #e3e6e8;
+}
+
+.crud-table th {
+  background-color: #04AA6D;
+  padding: 8px;
+  text-align: left;
+  color: white;
+}
+
+#crud-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#crud-table tr:hover {
+  background-color: #ddd;
+}
+
+/* modal listas css */
+.li {
+  list-style: none;
+}
+
+#total {
+  color: #04AA6D;
+}
